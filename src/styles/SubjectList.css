@@ -1,0 +1,13 @@
+.SubjectList {
+  list-style: none;
+}
+
+.Subject {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+.SubjectNumber {
+  background-color: red;
+  border: 5px solid darkred;
+}
