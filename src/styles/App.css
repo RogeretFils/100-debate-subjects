@@ -1,4 +1,18 @@
-.App {
-  background-color: black;
-  color: white;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #edf0f5;
+  margin-bottom: 28px;
+}
+
+App {
+}
+
+.MainTitle {
+  font-size: 28px;
+  margin-block: 30px;
+  text-align: center;
 }
