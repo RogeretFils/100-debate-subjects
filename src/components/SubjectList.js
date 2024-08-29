@@ -6,6 +6,7 @@ function SubjectList() {
   let subjectBoxList = subjectList.map(subject =>
     <li className="Subject" key={subject[0]}>
       {/* <img className="Subject-image" src={require("../assets/1.png")} alt="" /> */}
+      <div className="Subject-colorLine" style={{backgroundColor: `hsl(${2.7 * subject[0] + 90}, 70%, 65%)`}}></div>
       <div className="Subject-body">
         <div className="Subject-head">
           <p className="Subject-number" style={{backgroundColor: `hsl(${2.7 * subject[0] + 90}, 70%, 50%)`}}>{subject[0]}</p>

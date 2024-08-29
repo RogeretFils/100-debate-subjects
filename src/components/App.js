@@ -15,7 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="MainTitle">100 Sujets de Débat</h1>
+      <h1 className="MainTitle-Wrapper">
+        <div className="MainTitle-colorLine"></div>
+        <span className="MainTitle">100 Sujets de Débat</span>
+      </h1>
       <SubjectList />
     </div>
   );

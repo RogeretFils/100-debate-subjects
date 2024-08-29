@@ -5,14 +5,31 @@
 
 body {
   background-color: #edf0f5;
-  margin-bottom: 28px;
+  margin-bottom: 1.5rem;
 }
 
 App {
+
+}
+
+.MainTitle-Wrapper {
+  margin-bottom: 1.5rem;
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+  font-size: 1.5rem;
+  gap: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.75rem;
+  box-shadow: 0px 5px 5px lightgray;
+  color: black;
 }
 
 .MainTitle {
-  font-size: 28px;
-  margin-block: 30px;
-  text-align: center;
+}
+
+.MainTitle-colorLine {
+  height: 4px;
+  background-color: hsl(0, 70%, 65%);
 }
