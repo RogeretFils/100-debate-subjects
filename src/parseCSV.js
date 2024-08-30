@@ -36,16 +36,16 @@ const rowCSV = `
   34|Homme / Femme|Polygamie|Que pensez vous de la polygamie ?|Pourquoi les sociétés polygames sont elles plus violentes ?
   35||Transports et Énergie|Les transports et l'énergie doivent ils être publiques ?|
   36|Économie et Politique|Bonheur dans l’histoire|Étions nous plus heureux au moyen-âge ?|
-  37||Démocratie|La démocratie est elle condamnée à s'effondrer ?|
-  38||Charité|La charité doit-elle être préférée aux prestations sociales ?|
+  37||Démocratie|Faut-il restreindre le droit de vote à certaines personnes seulement en démocratie, et selon quels critères ?|
+  38||Charité|Une société sans aucun Etat-providence, uniquement basée sur la charité est-elle viable ?|
   39|Économie et Politique|Discrimination positive|Les quotas et la discrimination positive sont ils des moyens valables de luter contre les inégalités ?|
   40||Enfant homosexuel|Que feriez vous si vous appreniez l'homosexualité de votre fils ? Et si c’est une fille ? Et s’il veut changer de sexe ?|
   41||Service militaire|Faut-il réinstaurer le service militaire ?|Pour quelle durée et à quel âge ?
   42||Homme et émotion|Quand les hommes doivent-ils se montrer ouvert émotionnellement ?|Quelles sont les occasions pour lesquelles l’homme est autorisé à pleurer ?
   43|Homme / Femme|Bonheur|Le bonheur est-il l'objectif à fixer au dessus de tout autre ?|Envisariez vous que la voix que Dieu a tracé pour vous soit dénuée de bonheur ? Le divorce est-il acceptable s’il l’on tombe amoureux d’une autre personne ?
-  44||Histoire et morale|Vous pensez vous moralement supérieur à nos prédécesseurs dans l'histoire ?|
-  45||Mal inné ou acquis|Une personne peut-elle naitre prédisposée à la criminalité par sa nature ?|Pensez-vous que l'homme nait fondamentalement mauvais ou fondamentalement bon ?
-  46||Peine capitale|Doit-on rétablir la peine de mort ?|
+  44||Histoire et morale|Pensez vous que vous auriez possédé des esclaves aux Etats-Unis en 1800 ?|Vous pensez vous moralement supérieur à nos prédécesseurs dans l'histoire ?
+  45||Mal inné ou acquis|Une personne peut-elle naître prédisposée à la criminalité par sa nature ?|Pensez-vous que l'homme nait fondamentalement mauvais ou fondamentalement bon ?
+  46||Peine capitale|Doit-on rétablir la peine de mort ?|Quelle méthode d’exécution préconisez-vous ?
   47|Justice et Loi|Hystérie|Comment doit-on gérer une situation ou une femme se montre impertinente envers un homme qui n'a pas le droit d'utiliser la force physique en retour ?|Existe il des situations ou l'homme est permis de lever la main sur une femme ?
   48|Homme / Femme|Motivation|Si vous vous retrouviez dans un tranchée de la Grande guerre aujourd'hui, qu'est ce qui vous pousserait à survivre et combattre ?|
   49||Prostitution|La prostitution doit-elle être légale ?|
@@ -71,7 +71,7 @@ const rowCSV = `
   69|Homme / Femme|Refus d’obtempérer|Comment la police doit-elle gérer le refus d’obtempérer d’un conducteur ?|Doit elle faire usage de son arme pour éviter de mettre en danger les habitants dans le cadre d’une course poursuite ?
   70|Justice et Loi|SMIC|Faut-il changer le montant du SMIC ou l'abolir ?|
   71|Économie et Politique|Terrorisme|Quelles solutions suggérez vous pour lutter contre les incels school shooter ?|Et quand aux actes de terrorisme ? Que pensez des Ouïghours ?
-  72||Santé publique|La santé doit-elle rester publique ?|
+  72||Santé publique|La santé doit-elle rester publique ?|Si oui, doit-on taxer les obèses ?
   73|Économie et Politique|Pornographie|La consommation de pornographie est-elle acceptable ?|Doit-elle est légale ? Doit-on en protéger les mineurs par une identification obligatoire ? Est-ce que l’ia pornographique va détruire notre civilisation ?
   74||Procréatione et mariage|La procréation en dehors du mariage est-elle immorale ?|
   75||Assurances et génétique|Etes vous en accord avec l’analyse génétique dans le domaine des assurances ?|
@@ -89,8 +89,8 @@ const rowCSV = `
   87|Homme / Femme|Femme et nobel|Pourquoi n’y a-t-il presque aucune femme prix nobel ?|La place de la femme est-elle à la cuisine ?
   88||Israël et Palestine|Quelle opinion portez vous sur le conflit israélo-palestinien ?|
   89||Livres interdits|Doit-on autoriser la vente du livre du H ou bien de bénito ?|L’appel à la haine doit-il demeurer un délit ?
-  90||Antidépresseurs|La prise d'antidépresseurs est elle une forme de négation de vie à vos yeux ? Si vous en etiez proscrit, allez vous les consommer ?|Est-il bien bénéfique de consulter un psychologue en cas de coup dur ?
-  91||83 de QI|Comment la société doit-elle gérer les 10 % d’individus à moins de 83 de QI dont l’armée de veux même pas en tant que chaire à cannon ?|
+  90||Antidépresseurs|La prise d'antidépresseurs est elle une forme de négation de vie à vos yeux ? Si vous en étiez proscrit, les consommeriez-vous ?|Est-il bien bénéfique de consulter un psychologue en cas de coup dur ?
+  91||83 de QI|Comment la société doit-elle gérer les 10 % d’individus à moins de 83 de QI dont l’armée ne veut même pas en tant que chair à cannon ?|
   92|Maternité|GPA|Quel est votre ressenti sur la GPA ?|
   93||Homosexualité|Les homosexuels doivent ils être traité à égalité avec les hétérosexuels en ce qui concerne le mariage ou l'adoption ?|L'homosexualité est elle un péché ?
   94|Maternité|PMA|La Procréation médicalement assistée doit-elle être autorisée aux personnes non hétérosexuelles ?|
