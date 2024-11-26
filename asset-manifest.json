@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/100-debate-subjects/static/css/main.6e9da0fc.css",
-    "main.js": "/100-debate-subjects/static/js/main.f69b6e6c.js",
-    "static/js/453.4bc6fcb6.chunk.js": "/100-debate-subjects/static/js/453.4bc6fcb6.chunk.js",
-    "index.html": "/100-debate-subjects/index.html",
-    "main.6e9da0fc.css.map": "/100-debate-subjects/static/css/main.6e9da0fc.css.map",
-    "main.f69b6e6c.js.map": "/100-debate-subjects/static/js/main.f69b6e6c.js.map",
-    "453.4bc6fcb6.chunk.js.map": "/100-debate-subjects/static/js/453.4bc6fcb6.chunk.js.map"
+    "main.css": "./static/css/main.6e9da0fc.css",
+    "main.js": "./static/js/main.fd777763.js",
+    "static/js/453.4bc6fcb6.chunk.js": "./static/js/453.4bc6fcb6.chunk.js",
+    "index.html": "./index.html",
+    "main.6e9da0fc.css.map": "./static/css/main.6e9da0fc.css.map",
+    "main.fd777763.js.map": "./static/js/main.fd777763.js.map",
+    "453.4bc6fcb6.chunk.js.map": "./static/js/453.4bc6fcb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e9da0fc.css",
-    "static/js/main.f69b6e6c.js"
+    "static/js/main.fd777763.js"
   ]
 }
